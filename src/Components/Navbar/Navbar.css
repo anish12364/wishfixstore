@@ -1,0 +1,28 @@
+
+/* navigation css */
+.maindivision{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(73, 79, 82);
+    
+    
+}
+.pagelink ul{
+    width: 40%;
+    display: flex;
+   align-items: center;
+    list-style: none;
+  
+  
+
+}
+.pagelink a{
+  justify-content: space-around;
+  color: white;
+  padding-right: 100px;
+  font-size: 30px;
+
+
+}

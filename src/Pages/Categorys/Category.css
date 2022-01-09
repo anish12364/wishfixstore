@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+     background-color: #F0F8FF;
+}
+.row{
+    padding-left: 20px;
+    align-content: center;
+
+}
+/*button css */
+.Button{
+
+  border: none;
+  color: brown;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding-left:400px;
+  padding-top: 50px;
+  
+    
+
+}
+ .btn{
+     font-size:20px;
+     cursor: pointer;
+     height: 50px;
+     width: 100px;  
+     color:#F4A460;
+     justify-content: center;
+     align-content: center;
+    text-decoration: #F4A460;
+ }
+ .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  /* prdouct css style*/
+ 
+ .card-img{
+     height: 40vh;
+
+     padding-top: 50px;
+ }
+ .col_2{
+   align-self: center;
+ }
+ .card-title{
+     color:black;
+     font-size: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .col_row{
+  display: grid;
+  grid-template-columns:repeat(auto-fill,minmax(300px,300px));
+  column-gap: 30px;
+  row-gap:110px;
+ }
+ 
+ .card{
+   width:300px;
+   height: 300px;
+   object-position: center;
+
+ }
+ .card-body p{
+   font-size: 20px;
+   font-style: bold;
+   color:Black;
+   padding-top: 10px;
+   box-sizing: border-box;
+ }
+
+
+ /*Nav bar css for Nav bar*/
+ .main-nav{
+  width: 100%;
+  display: grid;
+  grid-template-columns:10rem 1fr 3fr 1fr ;
+  
+
+}
+.logo{
+  /*background-color: rgb(211, 211, 255);*/
+  grid-column: 2/3;
+  align-items: center;
+  display: grid;
+  justify-content: start;
+  text-decoration: none;
+}
+.menu-link{
+  grid-column: 3/4;
+  margin-left:300px;
+  list-style-type: none;
+  padding-top: 20px;
+}
+ul li a{
+  text-decoration: none;
+
+}
+.menu-link ul{
+  display: flex;
+  width:30vw;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  
+ 
+}
+.logo h2{
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: -webkit-linear-gradient(#eee,rgb(69, 57, 248));
+  text-decoration: none;
+ 
+}
+.menu-link ul li a{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  font-style: bold;
+  color: black;
+  list-style-type: none
+
+}
